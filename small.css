@@ -1,0 +1,140 @@
+/*************** SMALL MOBILE **************/
+body {
+     background-color: #efefef;
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+  width: 450px;
+  margin: auto;
+  text-align: center;
+}
+/* header */
+.mainheader h1 {
+font-family: 'Fira Sans', sans-serif;
+font-style: italic;
+font-weight: 500;
+}
+.mainheader ul {
+  list-style: none;
+  text-align: center;
+  background-color: #3c2b3c;
+  padding: 18px 0;
+  margin: 0;
+
+}
+.mainheader li {
+  display: inline;
+}
+.mainheader a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: white;
+}
+/* unvisited link */
+a:link {
+    color: white;
+}
+/* visited link */
+a:visited {
+    color: white;
+}
+/* mouse over link */
+a:hover {
+    color: #e2d8df;
+}
+/* selected link */
+a:active {
+    color: #e2d8df;
+}
+
+/* main content */
+h2 {
+  color: #41303e;
+}
+.addresslink {
+  background-color: #6a4267;
+  padding: 28px 0;
+  text-decoration: none;
+  list-style: none;
+}
+.addresslink a {
+  text-decoration: none;
+  list-style: none;
+}
+/***************** TABLET *******************/
+@media (min-width: 768px) {
+  body {
+    background-color: #9D6B84;
+  }
+#container {
+  width: 100%;
+}
+}
+
+/***************** DESKTOP ******************/
+@media (min-width: 992px) {
+body {
+  background-color: #efefef;
+}
+aside {
+  float: right;
+  width: 360px;
+  padding-left: 10px;
+  }
+  section {
+  width: 600px;
+  float: left;
+  margin-top: 30px;
+ }
+  article {
+   border-bottom: 1px solid #000;
+   margin-bottom: 40px;
+}
+p {
+  font-weight: 100;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  clear: both;
+  color: #676464;
+  padding-top: 20px;
+}
+.addresslink {
+  display: none;
+}
+}
+
+/***************** LARGER *******************/
+@media (min-width: 1200px) {
+body {
+  background-color: #D3BECF;
+}
+aside {
+  float: right;
+  width: 512px;
+  padding-left: 10px;
+  }
+  section {
+  width: 700px;
+  float: left;
+  margin-top: 30px;
+}
+  article {
+   border-bottom: 1px solid #000;
+   margin-bottom: 40px;
+}
+p {
+  font-weight: 100;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  clear: both;
+  color: #676464;
+  padding-top: 20px;
+}
+.addresslink {
+  display: none;
+}
+}
