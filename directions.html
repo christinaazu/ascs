@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title> Welcome to ASCS </title>
-    <link rel="stylesheet" href="small.css">
+    <link rel="stylesheet" href="directions.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,700italic,600italic,600,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,500italic,700italic' rel='stylesheet' type='text/css'>
   </head>
@@ -12,6 +12,7 @@
      <div id="container">
   <header>
     <div class="mainheader">
+    <h1> Anderson Sobel Cosmetic Surgery </h1>
        <nav>
         <ul>
           <li class ="homebutton"><a href="index.html">Home</a></li>
@@ -21,7 +22,6 @@
           <li class ="mainnav"><a href="directions.html">Directions</a></li>
         </ul>
       </nav>
-       <h1> Anderson Sobel Cosmetic Surgery </h1>
     </div>
 
         <h2> Directions to our Bellevue Location</h2>
@@ -42,6 +42,7 @@
         Bellevue, WA 98004 </span>
         <h4> Phone (425) 453-9060
         Fax (425) 646-0611 </h4>
-
-</body>
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+        <div style='overflow:hidden;height:240px;width:500px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div>
+        <div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(47.62533560000001,-122.18492579999997),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.62533560000001,-122.18492579999997)});infowindow = new google.maps.InfoWindow({content:'<strong>Anderson Sobel Cosmetic Surgery</strong><br>1632 116th Ave NE Bellevue, WA 98004<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script> </body>
 </html>
