@@ -10,3 +10,9 @@ $('#moreresultslink').click(function(event) {
   $(this).hide();
 });
 
+
+
+$('.expect-list').click(function(event){
+  //$(this).siblings('ol').slideDown();
+  $(this).siblings('ol').show();
+});
