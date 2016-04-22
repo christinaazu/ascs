@@ -10,9 +10,7 @@ $('#moreresultslink').click(function(event) {
   $(this).hide();
 });
 
-
-
-$('.expect-list').click(function(event){
+$('.col-md-4 what-to-expect').click(function(event){
   //$(this).siblings('ol').slideDown();
   $(this).siblings('ol').show();
 });

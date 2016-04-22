@@ -25,16 +25,26 @@ header {
 font-family: 'Fira Sans', sans-serif;
 float: left;
 width: 100%;
-color: #e0e0e0;
+color: #5c4853;
 font-size: 2.5em;
+font-weight: 800;
+background-color: #dadada;
+padding: 5%;
+margin: 0;
+}
+.jumbotron {
+  background-image: url("purpleshirt.png");
 }
 
 /*********** main content **********/
-.clearfix section {
+.maintextcontent section {
   padding: 0 30px;
 }
 h2 {
-  color: #41303e;
+  color: #915175;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 10px;
 }
 .addresslink {
   background-color: #6a4267;
@@ -46,6 +56,9 @@ h2 {
   text-decoration: none;
   list-style: none;
   color: white;
+}
+img {
+  margin-top: 10px;
 }
 
 /*********** picture & testimonials **********/
@@ -68,7 +81,7 @@ iframe {
 }
 h4 {
   height: 50%;
-  padding: 20px;
+  padding: 20px 0;
   margin: 0;
   background-color: #3e9bb8;
   color: white;
@@ -113,22 +126,18 @@ footer {
 .close {
   float: none;
   color: white;
+  opacity: 1;
+  font-weight: 500;
 }
 /*/***************** DESKTOP ******************/
 
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
   /*********** main content **********/
-.clearfix {
-    width: 70%;
-    float: left;
-  }
-#appointment-content {
-    width: 70%;
-    float: left;
-  }
-
+.maintextcontent {
+  float: left;
+  width: 70%;
+}
 iframe {
   display: none;
 }
