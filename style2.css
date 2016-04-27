@@ -1,18 +1,52 @@
-.jumbotron h1 {
-  color: #5c4852;
+body {
+  font-size: 16px;
 }
-
+.jumbotron h1 {
+  color:  #915175;
+}
+.jumbotron {
+  /*transition: background-color 1s ease;*/
+  position: relative;
+  background-image: url("logos/softback.jpg");
+}
+/*.jumbotron img {
+    position: absolute;
+    right: 8%;
+    top: 0%;
+    height: 100%;
+}*/
+/*.jumbotron:hover {
+  background-color: #d5ced3;
+}*/
+.btn-primary {
+  background-color: #5AAFCC;
+}
 .glyphicon-heart:before {
   padding-right: 10px;
   font-size: .8em;
+  color: #5aafcb
 }
-.jumbotron {
-  background-color: #e2d8df;
+.glyphicon-triangle-right:before {
+  padding-right: 10px;
+  font-size: .8em;
+  color: #5aafcb
 }
+/*.jumbotron {
+  background-color: #dbdbdb;
+}*/
 .bar {
       background-color: #3c2b3c;
     padding: 22px 0;
     margin: 20px 0;
+}
+.author {
+  float: right;
+  width: 100%;
+  padding-bottom: 20px;
+  font-style: italic;
+}
+.authorhide {
+  display: none;
 }
 .addresslink {
     background-color: #3c2b3c;
@@ -27,4 +61,113 @@
 .about img {
   width: 246px;
 }
+.appointment ol {
+  display:none;
+  }
+  .appointment li {
+        list-style-type: circle;
+        text-align: left;
+  }
+#appointment-content {
+  margin: 0;
+  text-align: center;
+}
 
+footer {
+  padding: 10%;
+  margin: 0;
+}
+footer h6 {
+  text-align: center;
+  padding-top: 20px;
+}
+.footer {
+  text-align: center;
+  padding-top: 20px;
+}
+.close {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.what-to-expect {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+/***** DIRECTIONS **/
+.carousel-inner {
+  width: 940px;
+  height: 296px;
+}
+.front-office-image img {
+    float: left;
+    display: block;
+    margin-right: 15px;
+    padding-top: 5px;
+}
+.map {
+  width: 53%;
+}
+.side-text {
+  width: 46%;
+}
+.side-text h2 {
+  margin:0;
+}
+.side-text p {
+  padding-top: 10px;
+}
+/***** FINANCING *****/
+#financecompanies h3 {
+  text-align: center;
+}
+#financecompanies {
+  margin-top: 20px;
+}
+#financecompanies img {
+  display: block;
+    margin: 0 auto;
+}
+
+.sign-image img {
+  width: 32%;
+  float:right;
+  margin: 10px;
+}
+h2 h3 {
+  padding: 10px 0;
+}
+p {
+  font-size: 1em;
+}
+.model img {
+  display: none;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+.model img {
+  display: none;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+.model img {
+  display: inline-block;
+    position: absolute;
+    top: -300px;
+    margin-left: 628px;
+    width: 165%;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+.model img {
+    position: absolute;
+    top: -353px;
+    margin-left: 757px;
+    width: 144%;
+}
+ }
