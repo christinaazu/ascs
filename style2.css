@@ -94,7 +94,15 @@ footer h6 {
   padding: 0;
   margin-bottom: 20px;
 }
+.expect-list {
+  color: blue;
+}
 
+
+.glyphicon-ok{
+  display: none;
+  padding: 10px;
+}
 /***** DIRECTIONS **/
 .carousel-inner {
   width: 940px;
