@@ -13,13 +13,9 @@ $('#moreresultslink').click(function(event) {
 $('.expect-list').click(function(event){
   //$(this).siblings('ol').slideDown();
   $(this).siblings('ol').show();
-  $('.check').show();
+  $(this).children('.check').show();
+  // $('.check').show();
 });
 
 
 
-
-// $('.expect-list').click(function(event){
-// $(this).siblings('ol').slideDown();
-// $(.this).siblings('.glyphicon-ok').show();
-// });

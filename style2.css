@@ -5,9 +5,7 @@ body {
   color:  #915175;
 }
 .jumbotron {
-  /*transition: background-color 1s ease;*/
-  position: relative;
-  background-image: url("logos/softback.jpg");
+  transition: background-color .2s ease;*/
 }
 /*.jumbotron img {
     position: absolute;
@@ -15,9 +13,9 @@ body {
     top: 0%;
     height: 100%;
 }*/
-/*.jumbotron:hover {
-  background-color: #d5ced3;
-}*/
+.jumbotron:hover {
+  background-color: #cccccc;
+}
 .btn-primary {
   background-color: #5AAFCC;
 }
@@ -76,6 +74,7 @@ body {
 footer {
   padding: 10%;
   margin: 0;
+  background-color: #e7e7e7;
 }
 footer h6 {
   text-align: center;
@@ -95,9 +94,11 @@ footer h6 {
   margin-bottom: 20px;
 }
 .expect-list {
-  color: blue;
+  color: #5aafcb;
 }
-
+.expect-list:hover {
+  color: #236d85;
+}
 
 .glyphicon-ok{
   display: none;
@@ -151,6 +152,19 @@ p {
 }
 .model img {
   display: none;
+}
+
+/**** connect ****/
+.main-connect {
+      float: left;
+    width: 50%;
+}
+.facebook {
+    width: 40%;
+    padding-top: 30px;
+}
+.images-fb {
+    padding-top: 30px;
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
